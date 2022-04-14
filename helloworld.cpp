@@ -11,19 +11,19 @@ class myclass
 
 };
 
+myclass mc[10];
 
 int main()
 {
-	myclass mc;
 
-	mc.s = 5;
-	mc.f = 7;
+	mc[0].s = 5;
+	mc[0].f = 7;
 
 	a = 2;
 	b = 3;
 	c = a + b;          
 
-    cout << "Hello, world! "<< c << endl;
-    system("pause"); // Только для тех, у кого MS Visual Studio
+    cout << "Hello, world! "<< c <<" "<<mc[0].s + mc[0].f<<endl;
+//    system("pause"); // Только для тех, у кого MS Visual Studio
     return 0;
 }
