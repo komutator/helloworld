@@ -1,9 +1,13 @@
 #include <iostream>
+#include <vector>
 #include <cstdlib> // для system
 using namespace std;
 unsigned int a;
 unsigned int b;
 unsigned int c;
+
+
+
 class myclass
 {
 	public:
@@ -12,6 +16,21 @@ class myclass
 };
 
 myclass mc[10];
+
+
+vector <myclass> vmc;
+
+void init_vector() 
+{
+    for(k = 0; k < 10; k++)
+    {
+    }
+
+    
+
+};
+
+
 
 int main()
 {
